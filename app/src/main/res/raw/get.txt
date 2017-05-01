@@ -1,0 +1,6 @@
+in;S'introduire, entrer;Do not get in eyes or on skin.;Ne pas laisser entrer en contact avec les yeux et la peau.
+off;Quitter, expédier, s'en tirer;Such a huge challenge, I think, needs a common remuneration system or your teams will not get off the ground.;J'estime qu'un défi aussi énorme que celui-là requiert un système de rémunération commun, sans quoi vos équipes ne deviendront jamais réalité.
+ahead;Devancer, dépasser;What could you do to get ahead of the game?;Quel message leur lancerions-nous si nous permettions à des personnes qui sont venues chez nous irrégulièrement de damer le pion à ceux qui respectent les règles?
+along;Bien s'entendre;I hope to get along with my new colleagues.;J'espère bien m'entendre avec mes nouveaux collègues.
+on;Monter, monter à bord;He punched his ticket before getting on the train.;Il a poinçonné son billet avant de monter dans le train.
+over;Surmonter, oublier, passer par-dessus;If you smoke, cut down or quit to help you get over your cold faster.;Si vous êtes fumeur, arrêtez ou réduisez votre consommation- ceci va permettre à vos poumons de guérir plus rapidement. 

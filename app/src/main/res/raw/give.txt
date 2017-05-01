@@ -1,0 +1,6 @@
+in;Céder, capituler, succomber à;I refuse to give in to their demands.;Je refuse de céder à leurs exigences.
+out;Distribuer, divulguer, attribuer; André joined the team that is installing distribution centres across the city to give out clean water.;André Charlebois s'est joint à cette équipe qui cherche à installer des structures de distribution d'eau potable dans différents sites. 
+off;Dégager, émettre;The night-light gives off a faint but comforting light.;La veilleuse émet une lumière faible mais rassurante.
+away;Trahir, offrir, conduire à l'autel, dénoncer, révéler;You don't want to plan to give away assets and then realize later that you really need them for yourself.;Ce serait dommage que vous donniez des biens pour ensuite vous rendre compte que vous en avez encore besoin pour vous-même.
+rise;Donner lieu à, engendrer, provoquer;The Community financial contribution to reimburse eligible costs shall not give rise to a profit.;La contribution financière de la Communauté dans le cadre du remboursement de coûts éligibles ne doit pas générer de profit.
+up;Abandonner, renoncer, sacrifier;The soldier was willing to give up his life for the emperor.;Le soldat était prêt à sacrifier sa vie pour l'empereur.

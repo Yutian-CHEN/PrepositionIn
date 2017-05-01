@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:id="@+id/run"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:text="run"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/put"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:text="Put"
+            android:visibility="visible" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:id="@+id/get"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:text="get"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/turn"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:text="Turn"
+            android:visibility="visible" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal">
+
+        <TableLayout
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:gravity="center_vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:animationCache="false"
+                android:gravity="center_vertical|fill_horizontal">
+
+                <Button
+                    android:id="@+id/go_after"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:text="Go After"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+                <Button
+                    android:id="@+id/go_ahead"
+                    android:layout_width="85dp"
+                    android:layout_height="85dp"
+                    android:text="Go Ahead"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:animationCache="false"
+                android:gravity="center_vertical|center_horizontal">
+
+                <Button
+                    android:id="@+id/go_back_on"
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:text="Go Back On"
+                    android:textAppearance="@style/TextAppearance.AppCompat" />
+
+                <Button
+                    android:id="@+id/go_between"
+                    android:layout_width="85dp"
+                    android:layout_height="85dp"
+                    android:text="Go Between"
+                    android:textAppearance="@style/TextAppearance.AppCompat" />
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/give"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:text="give"
+            android:visibility="visible" />
+    </TableRow>
+
+</TableLayout>

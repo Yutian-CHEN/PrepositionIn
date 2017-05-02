@@ -14,6 +14,7 @@
             android:id="@+id/run"
             android:layout_width="170dp"
             android:layout_height="170dp"
+            android:background="@drawable/my_button"
             android:text="run"
             android:visibility="visible" />
 
@@ -31,6 +32,7 @@
                     android:id="@+id/put_forward"
                     android:layout_width="85dp"
                     android:layout_height="85dp"
+                    android:background="@drawable/my_button4"
                     android:text="Put Forward"
                     android:textAppearance="@style/TextAppearance.AppCompat" />
 
@@ -38,6 +40,7 @@
                     android:id="@+id/put_off"
                     android:layout_width="85dp"
                     android:layout_height="85dp"
+                    android:background="@drawable/my_button4"
                     android:text="Put Off"
                     android:textAppearance="@style/TextAppearance.AppCompat" />
             </TableRow>
@@ -52,6 +55,7 @@
                     android:id="@+id/put_up_with"
                     android:layout_width="85dp"
                     android:layout_height="85dp"
+                    android:background="@drawable/my_button7"
                     android:text="Put Up With"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
@@ -68,6 +72,7 @@
             android:id="@+id/get"
             android:layout_width="170dp"
             android:layout_height="170dp"
+            android:background="@drawable/my_button3"
             android:text="get"
             android:visibility="visible" />
 
@@ -75,6 +80,7 @@
             android:id="@+id/turn"
             android:layout_width="170dp"
             android:layout_height="170dp"
+            android:background="@drawable/my_button"
             android:text="turn"
             android:visibility="visible" />
     </TableRow>
@@ -88,6 +94,7 @@
             android:id="@+id/go"
             android:layout_width="170dp"
             android:layout_height="170dp"
+            android:background="@drawable/my_button6"
             android:text="Go"
             android:visibility="visible" />
 
@@ -95,6 +102,7 @@
             android:id="@+id/give"
             android:layout_width="170dp"
             android:layout_height="170dp"
+            android:background="@drawable/my_button2"
             android:text="give"
             android:visibility="visible" />
     </TableRow>

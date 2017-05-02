@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="170dp"
+android:layout_height="170dp"
+android:gravity="center_vertical">
+
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animationCache="false"
+    android:gravity="center_vertical|fill_horizontal">
+
+    <Button
+        android:id="@+id/turn_against"
+        android:layout_width="85dp"
+        android:layout_height="match_parent"
+        android:text="Turn Against"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <Button
+        android:id="@+id/turn_into"
+        android:layout_width="85dp"
+        android:layout_height="match_parent"
+        android:text="Turn Into"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+</TableRow>
+
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animationCache="false"
+    android:gravity="center_vertical|center_horizontal">
+
+    <Button
+        android:id="@+id/turn_out"
+        android:layout_width="85dp"
+        android:layout_height="match_parent"
+        android:text="Turn Out"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <Button
+        android:id="@+id/turn_over"
+        android:layout_width="85dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:text="Turn Over"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+</TableRow>
+
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animationCache="false">
+
+    <Button
+        android:id="@+id/turn_to"
+        android:layout_width="85dp"
+        android:layout_height="match_parent"
+        android:text="Turn To"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+</TableRow>
+</TableLayout>

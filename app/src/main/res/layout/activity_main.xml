@@ -5,14 +5,17 @@
     android:layout_height="wrap_content">
 
     <TableRow
+        android:id="@+id/line1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center_vertical|center_horizontal">
+        android:gravity="center_vertical|center_horizontal"
+        android:visibility="visible">
 
         <Button
             android:id="@+id/run"
             android:layout_width="170dp"
             android:layout_height="170dp"
+            android:background="@drawable/my_button"
             android:onClick="onClick"
             android:text="run"
             android:visibility="visible" />
@@ -21,6 +24,7 @@
             android:id="@+id/put"
             android:layout_width="170dp"
             android:layout_height="170dp"
+            android:background="@drawable/my_button2"
             android:onClick="onClick"
             android:text="Put"
             android:visibility="visible" />
@@ -29,12 +33,14 @@
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center_vertical|center_horizontal">
+        android:gravity="center_vertical|center_horizontal"
+        android:visibility="visible">
 
         <Button
             android:id="@+id/get"
             android:layout_width="170dp"
             android:layout_height="170dp"
+            android:background="@drawable/my_button3"
             android:onClick="onClick"
             android:text="get"
             android:visibility="visible" />
@@ -43,6 +49,7 @@
             android:id="@+id/turn"
             android:layout_width="170dp"
             android:layout_height="170dp"
+            android:background="@drawable/my_button4"
             android:onClick="onClick"
             android:text="turn"
             android:visibility="visible" />
@@ -51,12 +58,14 @@
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center_vertical|center_horizontal">
+        android:gravity="center_vertical|center_horizontal"
+        android:visibility="visible">
 
         <Button
             android:id="@+id/go"
             android:layout_width="170dp"
             android:layout_height="170dp"
+            android:background="@drawable/my_button5"
             android:onClick="onClick"
             android:text="Go"
             android:visibility="visible" />
@@ -65,6 +74,7 @@
             android:id="@+id/give"
             android:layout_width="170dp"
             android:layout_height="170dp"
+            android:background="@drawable/my_button6"
             android:onClick="onClick"
             android:text="give"
             android:visibility="visible" />

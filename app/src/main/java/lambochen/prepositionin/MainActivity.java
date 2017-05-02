@@ -1,6 +1,7 @@
 package lambochen.prepositionin;
 
 import android.app.Dialog;
+import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,7 +11,12 @@ import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.GridView;
+import android.widget.LinearLayout;
 import android.widget.PopupWindow;
+import android.widget.SimpleAdapter;
+import android.widget.TableLayout;
+import android.widget.TableRow;
 import android.widget.ViewFlipper;
 
 import java.io.BufferedInputStream;
@@ -20,6 +26,7 @@ import java.io.FileInputStream;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
@@ -32,6 +39,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private final int tag_GIVE = 6;
 
     private ArrayList<String> txt = new ArrayList<>();
+    private String[] words = {"run", "put", "get", "turn", "go", "give"};
+    private int[] ids = {R.layout.run, R.layout.put, R.layout.get, R.layout.turn, R.layout.go, R.layout.give};
 
     private Button run;
     private Button get;
@@ -40,21 +49,42 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button go;
     private Button give;
 
-
+    LayoutInflater layoutInflater;
+    private GridView mainLayout;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //layoutInflater = LayoutInflater.from(this);
+        //mainLayout = (GridView) findViewById(R.id.MainGrid);
+        /*
+        TableRow line1 = (TableRow) findViewById(R.id.line1);
+        TableRow line2 = (TableRow) findViewById(R.id.line2);
+        TableRow line3 = (TableRow) findViewById(R.id.line3);*/
+        /*View viewRun = layoutInflater.inflate(R.layout.run, null);
+        View viewPut = layoutInflater.inflate(R.layout.put, null);
+        View viewGet = layoutInflater.inflate(R.layout.get, null);
+        View viewGo = layoutInflater.inflate(R.layout.go, null);
+        View viewGive = layoutInflater.inflate(R.layout.give, null);
+        View viewTurn = layoutInflater.inflate(R.layout.turn, null);
+
+        ArrayList<HashMap<String, Object>> items = new ArrayList<>();
+        for(String word : words){
+            HashMap<String, Object> map = new HashMap<>();
+            map.put("Word",word);
+            items.add(map);
+        }
+        SimpleAdapter simpleAdapter = new SimpleAdapter(this, items, R.layout.gridview, new String[]{"Word"}, new int[]{R.layout.get});
+        mainLayout.setAdapter(simpleAdapter);*/
+
         run = (Button) findViewById(R.id.run);run.setTag(tag_RUN);run.setOnClickListener(this);
         put = (Button) findViewById(R.id.put);put.setTag(tag_PUT);put.setOnClickListener(this);
         get = (Button) findViewById(R.id.get);get.setTag(tag_GET);get.setOnClickListener(this);
         go = (Button) findViewById(R.id.go);go.setTag(tag_GO);go.setOnClickListener(this);
         turn = (Button) findViewById(R.id.turn);turn.setTag(tag_TURN);turn.setOnClickListener(this);
         give = (Button) findViewById(R.id.give);give.setTag(tag_GIVE);give.setOnClickListener(this);
-
-
        /* setContentView(R.layout.test);
         GridView MainGrid = (GridView) findViewById(R.id.MainGridView);
         GridView little_grid = (GridView) findViewById(R.id.little_grid);
@@ -198,27 +228,44 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void actionRun(){
+        /*View view1 = layoutInflater.inflate(R.layout.activity1, null);
+        mainLayout.removeAllViews();
+        mainLayout.addView(view1);*/
         setContentView(R.layout.activity1);
     }
 
     public void actionPUT(){
+        /*View view2 = layoutInflater.inflate(R.layout.activity2, null);
+        mainLayout.removeAllViews();
+        mainLayout.addView(view2);*/
         setContentView(R.layout.activity2);
-
     }
 
     public void actionGET(){
+        /*View view3 = layoutInflater.inflate(R.layout.activity3, null);
+        mainLayout.addView(view3);
+        mainLayout.removeViewAt(0);*/
         setContentView(R.layout.activity3);
     }
 
     public void actionTURN(){
+        /*View view4 = layoutInflater.inflate(R.layout.activity4, null);
+        mainLayout.addView(view4);
+        mainLayout.removeViewAt(0);*/
         setContentView(R.layout.activity4);
     }
 
     public void actionGO(){
+        /*View view5 = layoutInflater.inflate(R.layout.activity5, null);
+        mainLayout.addView(view5);
+        mainLayout.removeViewAt(0);*/
         setContentView(R.layout.activity5);
     }
 
     public void actionGIVE(){
+        /*View view6 = layoutInflater.inflate(R.layout.activity6, null);
+        mainLayout.addView(view6);
+        mainLayout.removeViewAt(0);*/
         setContentView(R.layout.activity6);
     }
 

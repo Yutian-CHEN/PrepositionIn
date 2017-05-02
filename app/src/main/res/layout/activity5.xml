@@ -13,6 +13,7 @@
             android:id="@+id/run"
             android:layout_width="170dp"
             android:layout_height="170dp"
+            android:background="@drawable/my_button2"
             android:text="run"
             android:visibility="visible" />
 
@@ -20,6 +21,7 @@
             android:id="@+id/put"
             android:layout_width="170dp"
             android:layout_height="170dp"
+            android:background="@drawable/my_button6"
             android:text="Put"
             android:visibility="visible" />
 
@@ -34,6 +36,7 @@
             android:id="@+id/get"
             android:layout_width="170dp"
             android:layout_height="170dp"
+            android:background="@drawable/my_button"
             android:text="get"
             android:visibility="visible" />
 
@@ -41,6 +44,7 @@
             android:id="@+id/turn"
             android:layout_width="170dp"
             android:layout_height="170dp"
+            android:background="@drawable/my_button5"
             android:text="Turn"
             android:visibility="visible" />
 
@@ -66,6 +70,7 @@
                     android:id="@+id/go_after"
                     android:layout_width="85dp"
                     android:layout_height="match_parent"
+                    android:background="@drawable/my_button6"
                     android:text="Go After"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
@@ -73,6 +78,7 @@
                     android:id="@+id/go_ahead"
                     android:layout_width="85dp"
                     android:layout_height="85dp"
+                    android:background="@drawable/my_button4"
                     android:text="Go Ahead"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
@@ -88,6 +94,7 @@
                     android:id="@+id/go_back_on"
                     android:layout_width="85dp"
                     android:layout_height="match_parent"
+                    android:background="@drawable/my_button2"
                     android:text="Go Back On"
                     android:textAppearance="@style/TextAppearance.AppCompat" />
 
@@ -95,6 +102,7 @@
                     android:id="@+id/go_between"
                     android:layout_width="85dp"
                     android:layout_height="85dp"
+                    android:background="@drawable/my_button3"
                     android:text="Go Between"
                     android:textAppearance="@style/TextAppearance.AppCompat" />
             </TableRow>
@@ -105,6 +113,7 @@
             android:id="@+id/give"
             android:layout_width="170dp"
             android:layout_height="170dp"
+            android:background="@drawable/my_button4"
             android:text="give"
             android:visibility="visible" />
     </TableRow>

@@ -13,6 +13,7 @@
             android:id="@+id/run"
             android:layout_width="170dp"
             android:layout_height="170dp"
+            android:background="@drawable/my_button6"
             android:text="run"
             android:visibility="visible" />
 
@@ -20,6 +21,7 @@
             android:id="@+id/put"
             android:layout_width="170dp"
             android:layout_height="170dp"
+            android:background="@drawable/my_button"
             android:text="Put"
             android:visibility="visible" />
 
@@ -34,6 +36,7 @@
             android:id="@+id/get"
             android:layout_width="170dp"
             android:layout_height="170dp"
+            android:background="@drawable/my_button4"
             android:text="get"
             android:visibility="visible" />
 
@@ -52,6 +55,7 @@
                     android:id="@+id/turn_against"
                     android:layout_width="85dp"
                     android:layout_height="match_parent"
+                    android:background="@drawable/my_button2"
                     android:text="Turn Against"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
@@ -59,6 +63,7 @@
                     android:id="@+id/turn_into"
                     android:layout_width="85dp"
                     android:layout_height="match_parent"
+                    android:background="@drawable/my_button4"
                     android:text="Turn Into"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
@@ -74,6 +79,7 @@
                     android:id="@+id/turn_out"
                     android:layout_width="85dp"
                     android:layout_height="match_parent"
+                    android:background="@drawable/my_button"
                     android:text="Turn Out"
                     android:textAppearance="@style/TextAppearance.AppCompat" />
 
@@ -81,6 +87,7 @@
                     android:id="@+id/turn_over"
                     android:layout_width="85dp"
                     android:layout_height="match_parent"
+                    android:background="@drawable/my_button6"
                     android:gravity="center_vertical"
                     android:text="Turn Over"
                     android:textAppearance="@style/TextAppearance.AppCompat" />
@@ -95,6 +102,7 @@
                     android:id="@+id/turn_to"
                     android:layout_width="85dp"
                     android:layout_height="match_parent"
+                    android:background="@drawable/my_button"
                     android:text="Turn To"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
@@ -112,6 +120,7 @@
             android:id="@+id/go"
             android:layout_width="170dp"
             android:layout_height="170dp"
+            android:background="@drawable/my_button6"
             android:text="Go"
             android:visibility="visible" />
 
@@ -119,6 +128,7 @@
             android:id="@+id/give"
             android:layout_width="170dp"
             android:layout_height="170dp"
+            android:background="@drawable/my_button4"
             android:text="give"
             android:visibility="visible" />
     </TableRow>

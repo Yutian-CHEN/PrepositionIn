@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/get"
+    android:layout_width="170dp"
+    android:layout_height="170dp"
+    android:text="get"
+    android:visibility="visible"></TextView>

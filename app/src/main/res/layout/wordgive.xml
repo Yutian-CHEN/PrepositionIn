@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="170dp"
+    android:layout_height="170dp"
+    android:gravity="center_vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animationCache="false"
+        android:gravity="center_vertical|fill_horizontal">
+
+        <Button
+            android:id="@+id/give_in"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:text="Give In"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <Button
+            android:id="@+id/give_out"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:text="Give Out"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animationCache="false"
+        android:gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:id="@+id/give_off"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:text="Give Off"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <Button
+            android:id="@+id/give_away"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:text="Give Away"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animationCache="false">
+
+        <Button
+            android:id="@+id/give_rise"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:text="Give Rise To"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <Button
+            android:id="@+id/give_up"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:text="Give Up"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    </TableRow>
+</TableLayout>

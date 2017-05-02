@@ -1,4 +1,4 @@
-down;Réduire, renverser;The car ran down the pedestrian;La voiture a renversé le piéton.
-into;Rencontrer par hasard; I ran into my cousin yesterday at the market.;Hier, j'ai rencontré ma cousine par hasard au marché.
-over;Ecraser;His wife said to him: Don't cross the road or you might get run over;Ne traverse pas la rue, a dit sa femme, tu pourrais te faire renverser.
-out;Etre à court de;If you happen to run out of fuel, an emergency supply of fuel will be delivered to get you on your way.;S'il vous arrive de tomber en panne sèche, un service de livraison d'essence d'urgence sera effectué pour vous permettre de continuer votre route.
+down;Réduire, renverser;The car ran down the pedestrian;La voiture a renversé le piéton.; RUN RAN RUN
+into;Rencontrer par hasard; I ran into my cousin yesterday at the market.;Hier, j'ai rencontré ma cousine par hasard au marché.; RUN RAN RUN
+over;Ecraser;His wife said to him: Don't cross the road or you might get run over;Ne traverse pas la rue, a dit sa femme, tu pourrais te faire renverser.; RUN RAN RUN
+out;Etre à court de;If you happen to run out of fuel, an emergency supply of fuel will be delivered to get you on your way.;S'il vous arrive de tomber en panne sèche, un service de livraison d'essence d'urgence sera effectué pour vous permettre de continuer votre route.; RUN RAN RUN

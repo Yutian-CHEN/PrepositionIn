@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/app/build/generated/assets/run.txt" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/app/build/intermediates/assets/run.txt" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/raw/get.txt" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/raw/give.txt" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/raw/go.txt" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/raw/put.txt" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/raw/run.txt" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/raw/turn.txt" charset="ISO-8859-1" />
   </component>
 </project>

@@ -1,5 +1,5 @@
-against;Trahir;He added that if one does not respect nature, in the end it will turn against you.;Il ajoute que si on ne respecte pas la nature, un jour ou l'autre c'est elle qui se retournera contre nous;
-into;Se transformer en, transformer, dégénérer en;The caterpillar turned into a beautiful butterfly.;La chenille s'est transformée en un beau papillon.;
-out;Produire, éteindre, s'avérer;It could turn out that such measures do not affect the target government at all.;Il pourrait s'avérer que de telles mesures n'atteignent en rien le gouvernement ciblé.
-over;Retourner, se retourner, renverser;They also had hoped to be able to turn over their homes to their families so that they could take advantage of it as well.;Ces gens espéraient aussi pouvoir transmettre la propriété de leur maison à des membres de leur famille pour qu'ils puissent aussi en profiter.
-to;Se tourner vers qn. pour l'aide;These workers must now turn to social assistance.;Ces travailleurs sont donc dans l'obligation de se tourner vers l'aide sociale.
+against;Trahir;He added that if one does not respect nature, in the end it will turn against you.;Il ajoute que si on ne respecte pas la nature, un jour ou l'autre c'est elle qui se retournera contre nous; TURN TURNED TURNED
+into;Se transformer en, transformer, dégénérer en;The caterpillar turned into a beautiful butterfly.;La chenille s'est transformée en un beau papillon.; TURN TURNED TURNED
+out;Produire, éteindre, s'avérer;It could turn out that such measures do not affect the target government at all.;Il pourrait s'avérer que de telles mesures n'atteignent en rien le gouvernement ciblé.; TURN TURNED TURNED
+over;Retourner, se retourner, renverser;They also had hoped to be able to turn over their homes to their families so that they could take advantage of it as well.;Ces gens espéraient aussi pouvoir transmettre la propriété de leur maison à des membres de leur famille pour qu'ils puissent aussi en profiter.; TURN TURNED TURNED
+to;Se tourner vers qn. pour l'aide;These workers must now turn to social assistance.;Ces travailleurs sont donc dans l'obligation de se tourner vers l'aide sociale.; TURN TURNED TURNED

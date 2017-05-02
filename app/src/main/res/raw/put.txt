@@ -1,3 +1,3 @@
-forward;Proposer, avancer, suggérer;The main objective is to create the Southern Corridor of energy resources which was put forward by the Czech Presidency on the occasion of the 8 May Prague Summit.;L'objectif principal est de créer le corridor Sud pour les ressources énergétiques proposé par la République tchèque à l'occasion du sommet de Prague du 8 mai.
-off;Reporter, dissuader, déranger;They had to put off the vote because of the bad weather.;Ils ont dû reporter le vote à cause du mauvais temps.
-up;Supporter, tolérer, endurer;I cannot put up with people who smoke next to me.;Je ne peux pas tolérer les gens qui fument près de moi.
+forward;Proposer, avancer, suggérer;The main objective is to create the Southern Corridor of energy resources which was put forward by the Czech Presidency on the occasion of the 8 May Prague Summit.;L'objectif principal est de créer le corridor Sud pour les ressources énergétiques proposé par la République tchèque à l'occasion du sommet de Prague du 8 mai.; PUT PUT PUT
+off;Reporter, dissuader, déranger;They had to put off the vote because of the bad weather.;Ils ont dû reporter le vote à cause du mauvais temps.; PUT PUT PUT
+up;Supporter, tolérer, endurer;I cannot put up with people who smoke next to me.;Je ne peux pas tolérer les gens qui fument près de moi.; PUT PUT PUT
